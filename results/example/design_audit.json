@@ -1,0 +1,17 @@
+{
+  "mode": "recorded_design_validation_not_new_AI_inference",
+  "samples": 32,
+  "counts": {
+    "A30Q": 27,
+    "WT": 5
+  },
+  "fixed_receptor_residues": 384,
+  "open_glp1_positions": [
+    23,
+    30
+  ],
+  "mpnn_model": "v_48_020",
+  "colabdesign_install_target": "v1.1.1",
+  "original_random_seed": null,
+  "random_seed_note": "Not recorded; do not claim bitwise reproduction of the 32 samples"
+}

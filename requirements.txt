@@ -1,0 +1,2 @@
+# CPU replay/reanalysis of the included design, AF3 and ESM evidence.
+numpy==2.4.6

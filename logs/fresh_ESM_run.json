@@ -1,0 +1,44 @@
+{
+  "pipeline_version": "1.0.0",
+  "time_utc": "2026-10-03T08:45:15.018433+00:00",
+  "seconds": 24.343549599987455,
+  "input_files_verified": 19,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.6",
+    "torch": "2.9.1+cu126",
+    "fair-esm": "2.0.0"
+  },
+  "command": [
+    "predict.py",
+    "--out",
+    "../validation/fresh_ESM",
+    "--esm-mode",
+    "infer",
+    "--checkpoint",
+    "D:\\GLP1R_ESM\\models\\hub\\checkpoints\\esm2_t33_650M_UR50D.pt",
+    "--device",
+    "cuda"
+  ],
+  "esm_mode": "infer",
+  "AI_design_mode": "archive_audit_plus_constraint_enumeration",
+  "AF3_mode": "recorded_output_reanalysis_not_new_server_inference",
+  "config_sha256": "ff01e9894c2f81a0ac82380ff5446013aad9d8f2ed9ad4fb8d6c940c9ae45183",
+  "competition_track_confirmed": true,
+  "random_seeds": {
+    "AF3": [
+      17,
+      29,
+      43
+    ],
+    "original_ProteinMPNN": null,
+    "ESM": 17
+  },
+  "limitations": [
+    "15 AF3 samples are not biological replicates",
+    "AF3 server/MPNN historical seeds and software revisions limit exact regeneration",
+    "Archived ESM scores are verified but not recomputed unless --esm-mode infer",
+    "No wet-lab simulation data included"
+  ]
+}

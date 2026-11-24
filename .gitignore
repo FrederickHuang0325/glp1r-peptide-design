@@ -1,0 +1,7 @@
+.venv*/
+__pycache__/
+*.pyc
+models/*.pt
+results/reproduced*/
+results/new_*/
+.ipynb_checkpoints/

@@ -1,0 +1,19 @@
+{
+  "python_executable": "D:\\GLP-1R数据\\.venv-esm\\Scripts\\python.exe",
+  "torch_version": "2.9.1+cu126",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "model": "esm2_t33_650M_UR50D",
+  "checkpoint": "D:\\GLP1R_ESM\\models\\hub\\checkpoints\\esm2_t33_650M_UR50D.pt",
+  "method": "One masked residue per forward pass; full-vocabulary log-softmax",
+  "precision": "float32; eval; inference_mode; TF32 disabled",
+  "sequence_length": 30,
+  "position_mapping": "Local position 1 corresponds to GLP-1 position 7",
+  "amidation": "Intended C-terminal amidation is not represented in ESM input",
+  "limitations": [
+    "Exploratory, post-hoc sequence compatibility assessment",
+    "Not a supervised fine-tuning experiment",
+    "No receptor or complex structure is provided to ESM",
+    "Scores do not establish activity, affinity, solubility or stability",
+    "Four sequences are not independent experimental replicates"
+  ]
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "path": "data/reference/6X18.pdb",
+    "sha256": "842ec7e1aab44cbae8c7f9cf7497edb501d4a8529db8f5fa9eaf0d72e0e887f7",
+    "bytes": 974106,
+    "source_filename": "6X18.pdb",
+    "use": "structure prior and common interface reference",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.771941+00:00"
+  },
+  {
+    "path": "data/design/design.fasta",
+    "sha256": "06f318cd85e02ae7da5f2836f2ecc4ccd286155a66cb4c088043264f85042000",
+    "bytes": 14112,
+    "source_filename": "design.fasta",
+    "use": "original 32 ProteinMPNN samples",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.774441+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_a30q_r440f260_unamidatedapprox_seed17.zip",
+    "sha256": "de85a2633ed68476f033dbc53f13a9f0aa411703f4a254066568ba0ebf2e840a",
+    "bytes": 6803321,
+    "source_filename": "fold_glp1_a30q_r440f260_unamidatedapprox_seed17.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.792525+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_a30q_r440f260_unamidatedapprox_seed29.zip",
+    "sha256": "4746e6a4dbcc23690d157d0f1b8dea8ecfa30d2764b6dd495a620a4140c09d09",
+    "bytes": 6793494,
+    "source_filename": "fold_glp1_a30q_r440f260_unamidatedapprox_seed29.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.810712+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_a30q_r440f260_unamidatedapprox_seed43.zip",
+    "sha256": "e0e3d3ba16787c4b9c1f0693a2ca910388187b215d354e7ae20d67c199cf726a",
+    "bytes": 6799209,
+    "source_filename": "fold_glp1_a30q_r440f260_unamidatedapprox_seed43.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.828969+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_wt_r440f260_unamidatedapprox_seed17.zip",
+    "sha256": "653c4d059004c4e50441d355d3053c55dde6162c04faf7b8d5174517c28e4f91",
+    "bytes": 6805454,
+    "source_filename": "fold_glp1_wt_r440f260_unamidatedapprox_seed17.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.847926+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_wt_r440f260_unamidatedapprox_seed29.zip",
+    "sha256": "7f7539635500f6947e5739a41b3fbfbef8841542750522fe4451adbbd06552ea",
+    "bytes": 6795032,
+    "source_filename": "fold_glp1_wt_r440f260_unamidatedapprox_seed29.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.866362+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_wt_r440f260_unamidatedapprox_seed43.zip",
+    "sha256": "7683c11e690b7131f23dbd45eb7ccdb3453ecd63a85be3d1b85b4588af4ec0d1",
+    "bytes": 6795216,
+    "source_filename": "fold_glp1_wt_r440f260_unamidatedapprox_seed43.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.884108+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_q23a_a30q_r440_unamidatedapprox_seed17.zip",
+    "sha256": "dc240d23da57e8cb1545cdf2528b53bc735345b657900c0d518dd2048a2a61a1",
+    "bytes": 6806635,
+    "source_filename": "fold_glp1_q23a_a30q_r440_unamidatedapprox_seed17.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.903210+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_q23a_a30q_r440_unamidatedapprox_seed29.zip",
+    "sha256": "4322c93fd427b95364731c48e77ad04cb98327595f5978808ecc582acbe608e2",
+    "bytes": 6798075,
+    "source_filename": "fold_glp1_q23a_a30q_r440_unamidatedapprox_seed29.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.921521+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_q23a_a30q_r440_unamidatedapprox_seed43.zip",
+    "sha256": "8983e08fc9c9738f5df57145eb39da126b9a41878baeb25d087cdaa65ad1ab78",
+    "bytes": 6792790,
+    "source_filename": "fold_glp1_q23a_a30q_r440_unamidatedapprox_seed43.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.939792+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_q23a_r440_unamidatedapprox_seed17.zip",
+    "sha256": "6e81ca1dfba974b31179513eff558a6882f86a4edc00fab17106f539c8025fb8",
+    "bytes": 6797428,
+    "source_filename": "fold_glp1_q23a_r440_unamidatedapprox_seed17.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.958185+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_q23a_r440_unamidatedapprox_seed29.zip",
+    "sha256": "ae8d9706bfd95edb82dd39c76bd17414a97b9214e04fd39e34e1bc82fdd0c0b5",
+    "bytes": 6797247,
+    "source_filename": "fold_glp1_q23a_r440_unamidatedapprox_seed29.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.975696+00:00"
+  },
+  {
+    "path": "data/af3/fold_glp1_q23a_r440_unamidatedapprox_seed43.zip",
+    "sha256": "5703a63b2685e3879cc1a42a3c3c0689a0e1986d30adba4a6d6b71f15f49db00",
+    "bytes": 6793227,
+    "source_filename": "fold_glp1_q23a_r440_unamidatedapprox_seed43.zip",
+    "use": "recorded AlphaFold Server output",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.994947+00:00"
+  },
+  {
+    "path": "data/esm/ESM_summary.csv",
+    "sha256": "f3d064468687c01fa133caa4aa2bc8ccfa6a43766083ac4eea874a244090010f",
+    "bytes": 742,
+    "source_filename": "ESM_summary.csv",
+    "use": "real local ESM-2 inference from 2026-10-03",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.997436+00:00"
+  },
+  {
+    "path": "data/esm/ESM_per_position.csv",
+    "sha256": "9f80b1dbbab47a507caf61f9ddfa24fee26099b0ecdcd88d5307ae02253bc80e",
+    "bytes": 7033,
+    "source_filename": "ESM_per_position.csv",
+    "use": "real local ESM-2 inference from 2026-10-03",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:01.999788+00:00"
+  },
+  {
+    "path": "data/esm/run_metadata.json",
+    "sha256": "e5ed9f9f2413c88013a053413ab56c2ec9b9867e27f902df1b5d431c0b58d4ba",
+    "bytes": 948,
+    "source_filename": "run_metadata.json",
+    "use": "real local ESM-2 inference from 2026-10-03",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:02.002020+00:00"
+  },
+  {
+    "path": "data/recorded/all_60_metrics.csv",
+    "sha256": "cfccfafbf0ac338d18157d20a6c41212cdb3102cf3c45069c12815bcb9cc5b57",
+    "bytes": 11605,
+    "source_filename": "全部60结构指标.csv",
+    "use": "original Colab regression baseline",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:02.004209+00:00"
+  },
+  {
+    "path": "data/recorded/seed_summary.csv",
+    "sha256": "ed3a9fbe722c801f7b18ea2ec90c4c3d5706e9ed09932673c59deddac44afb63",
+    "bytes": 885,
+    "source_filename": "各随机种子汇总.csv",
+    "use": "original Colab regression baseline",
+    "original_acquisition_date": "not fully recorded",
+    "archived_utc": "2026-10-03T08:47:02.006297+00:00"
+  }
+]

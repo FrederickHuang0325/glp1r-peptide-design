@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "models_compared": 60,
+  "seed_groups_compared": 12,
+  "absolute_tolerance": 0.0001,
+  "maximum_deviation_by_metric": {
+    "aligned_CA_count": 0.0,
+    "receptor_fit_RMSD_A": 3.552713678800501e-15,
+    "peptide_RMSD_A": 3.2834307606144364e-06,
+    "peptide_Nterm_RMSD_A": 6.6422549848677015e-06,
+    "reference_contacts_retained": 0.0,
+    "contact_retention_pct": 0.0,
+    "new_contacts": 0.0,
+    "Q23_contacts": 0.0,
+    "A30_contacts": 0.0,
+    "fixed_interface_PAE_R_to_P_A": 0.0,
+    "fixed_interface_PAE_P_to_R_A": 0.0,
+    "fixed_interface_PAE_A": 0.0,
+    "peptide_CA_pLDDT": 0.0,
+    "peptide_Nterm_CA_pLDDT": 0.0
+  },
+  "seed_summary_maximum_deviation": 3.2834307606144364e-06,
+  "ESM_maximum_deviation": 0.0,
+  "fresh_ESM_regression": {
+    "passed": true,
+    "models_compared": 60,
+    "seed_groups_compared": 12,
+    "absolute_tolerance": 0.0001,
+    "maximum_deviation_by_metric": {
+      "aligned_CA_count": 0.0,
+      "receptor_fit_RMSD_A": 3.552713678800501e-15,
+      "peptide_RMSD_A": 3.2834307606144364e-06,
+      "peptide_Nterm_RMSD_A": 6.6422549848677015e-06,
+      "reference_contacts_retained": 0.0,
+      "contact_retention_pct": 0.0,
+      "new_contacts": 0.0,
+      "Q23_contacts": 0.0,
+      "A30_contacts": 0.0,
+      "fixed_interface_PAE_R_to_P_A": 0.0,
+      "fixed_interface_PAE_P_to_R_A": 0.0,
+      "fixed_interface_PAE_A": 0.0,
+      "peptide_CA_pLDDT": 0.0,
+      "peptide_Nterm_CA_pLDDT": 0.0
+    },
+    "seed_summary_maximum_deviation": 3.2834307606144364e-06,
+    "ESM_maximum_deviation": 0.0
+  },
+  "CPU_pipeline_run": {
+    "pipeline_version": "1.0.0",
+    "time_utc": "2026-10-03T08:43:48.728343+00:00",
+    "seconds": 12.006004499970004,
+    "input_files_verified": 19,
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.6",
+      "torch": "2.9.1+cu126",
+      "fair-esm": "2.0.0"
+    },
+    "command": [
+      "predict.py",
+      "--out",
+      "results/example"
+    ],
+    "esm_mode": "archive",
+    "AI_design_mode": "archive_audit_plus_constraint_enumeration",
+    "AF3_mode": "recorded_output_reanalysis_not_new_server_inference",
+    "config_sha256": "ff01e9894c2f81a0ac82380ff5446013aad9d8f2ed9ad4fb8d6c940c9ae45183",
+    "competition_track_confirmed": true,
+    "random_seeds": {
+      "AF3": [
+        17,
+        29,
+        43
+      ],
+      "original_ProteinMPNN": null,
+      "ESM": 17
+    },
+    "limitations": [
+      "15 AF3 samples are not biological replicates",
+      "AF3 server/MPNN historical seeds and software revisions limit exact regeneration",
+      "Archived ESM scores are verified but not recomputed unless --esm-mode infer",
+      "No wet-lab simulation data included"
+    ]
+  },
+  "fresh_ESM_mode": {
+    "mode": "fresh_ESM_inference",
+    "seconds": 11.355175500037149,
+    "seed": 17,
+    "device": "cuda",
+    "torch": "2.9.1+cu126",
+    "checkpoint_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+    "method": "30 separate masked passes per peptide; float32; full-vocabulary log-softmax; no amidation token"
+  },
+  "unit_tests": {
+    "passed": true,
+    "count": 5,
+    "log_file": "unit_tests.txt"
+  },
+  "notebooks": {
+    "python_cells_executed": true,
+    "count": 3,
+    "log_file": "notebook_execution.txt",
+    "not_a_browser_or_Jupyter_kernel_test": true
+  },
+  "fresh_ProteinMPNN_test": "Not executed; historical JAX environment was not fully recorded",
+  "fresh_AF3_test": "Not submitted; archived real platform outputs are reanalyzed",
+  "archive_created_utc": "2026-10-03T08:48:08.666100+00:00",
+  "python_syntax_checked": [
+    "design.py",
+    "predict.py",
+    "prepare_af3.py",
+    "screen.py",
+    "src/__init__.py",
+    "src/common.py",
+    "src/design.py",
+    "src/esm_score.py",
+    "src/structure.py",
+    "tests/__init__.py",
+    "tests/execute_notebooks.py",
+    "tests/test_pipeline.py",
+    "tests/verify_regression.py"
+  ]
+}

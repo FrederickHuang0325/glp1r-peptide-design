@@ -1,0 +1,7 @@
+{
+  "mode": "archived_scores_verified_not_fresh_inference",
+  "input_sha256": {
+    "ESM_summary.csv": "f3d064468687c01fa133caa4aa2bc8ccfa6a43766083ac4eea874a244090010f",
+    "ESM_per_position.csv": "9f80b1dbbab47a507caf61f9ddfa24fee26099b0ecdcd88d5307ae02253bc80e"
+  }
+}

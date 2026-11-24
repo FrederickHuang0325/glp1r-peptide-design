@@ -1,0 +1,55 @@
+{
+  "pipeline_version": "1.0.0",
+  "competition_track": "AI大分子与多肽药物设计",
+  "sequences": {
+    "WT": "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR",
+    "A30Q": "HAEGTFTSDVSSYLEGQAAKEFIQWLVKGR",
+    "Q23A": "HAEGTFTSDVSSYLEGAAAKEFIAWLVKGR",
+    "Q23A_A30Q": "HAEGTFTSDVSSYLEGAAAKEFIQWLVKGR"
+  },
+  "candidate_ids": {
+    "WT": "GLP1R_REF_WT",
+    "A30Q": "GLP1R_C001",
+    "Q23A": "GLP1R_C002",
+    "Q23A_A30Q": "GLP1R_C003"
+  },
+  "origins": {
+    "WT": "Mother sequence",
+    "A30Q": "Original ProteinMPNN sample",
+    "Q23A": "Manually constructed single-mutant control",
+    "Q23A_A30Q": "Manually constructed double-mutant control"
+  },
+  "receptor_sequence": "RPQGATVSLWETVQKWREYRRQCQRSLTEDPPPATDLFCNRTFDEYACWPDGEPGSFVNVSCPWYLPWASSVPQGHVYRFCTAEGLWLQKDNSSLPWRDLSECEESKRGERSSPEEQLLFLYIIYTVGYALSFSALVIASAILLGFRHLHCTRNYIHLNLFASFILRALSVFIKDAALKWMYSTAAQQHQWDGLLSYQDSLSCRLVFLLMQYCVAANYYWLLVEGVYLYTLLAFSVFSEQWIFRLYVSIGWGVPLLFVVPWGIVKYLYEDEGCWTRNSNMNYWLIIRLPILFAIGVNFLIFVRVICIVVSKLKANLMCKTDIKCRLAKSTLTLIPLLGTHEVIFAFVMDEHARGTLRFIKLFTELSFTSFQGLMVAILYCFVNNEVQLEFRKSWERWRLEHLHIQRDSSMKPLKCPTSSLSSGATAGSSMYTATCQASCS",
+  "receptor_auth_offset": 23,
+  "reference_pdb": "data/reference/6X18.pdb",
+  "reference_pdb_sha256": "842ec7e1aab44cbae8c7f9cf7497edb501d4a8529db8f5fa9eaf0d72e0e887f7",
+  "recorded_design_fasta": "data/design/design.fasta",
+  "recorded_design_fasta_sha256": "06f318cd85e02ae7da5f2836f2ecc4ccd286155a66cb4c088043264f85042000",
+  "af3_archive_directory": "data/af3",
+  "esm_archive_directory": "data/esm",
+  "af3_seeds": [
+    17,
+    29,
+    43
+  ],
+  "anchor_auth_range": [
+    140,
+    330
+  ],
+  "contact_cutoff_A": 5.0,
+  "design": {
+    "model": "v_48_020",
+    "colabdesign_install_target": "v1.1.1",
+    "chains": "P,R",
+    "open_glp1_positions": [
+      23,
+      30
+    ],
+    "excluded_amino_acids": "C,D,E,F,G,H,I,K,L,M,N,P,R,S,T,V,W,Y",
+    "temperature": 0.1,
+    "samples": 32,
+    "original_seed": null
+  },
+  "esm_checkpoint_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+  "esm_regression_sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575"
+}

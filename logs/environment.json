@@ -1,0 +1,10 @@
+{
+  "capture_time_utc": "2026-10-03T08:48:08.682047+00:00",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.4.6",
+  "torch": "2.9.1+cu126",
+  "fair_esm": "2.0.0",
+  "historical_environment_capture": false,
+  "gpu_driver": "NVIDIA GeForce RTX 4060 Laptop GPU, 581.08, 8188 MiB"
+}

@@ -1,0 +1,11 @@
+
+test_ESM_archive (test_pipeline.PipelineTests.test_ESM_archive) ... ok
+test_ESM_bad_row_rejected (test_pipeline.PipelineTests.test_ESM_bad_row_rejected) ... ok
+test_kabsch (test_pipeline.PipelineTests.test_kabsch) ... ok
+test_reference (test_pipeline.PipelineTests.test_reference) ... ok
+test_sequences (test_pipeline.PipelineTests.test_sequences) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.035s
+
+OK

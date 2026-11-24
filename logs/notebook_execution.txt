@@ -1,0 +1,108 @@
+Project: C:\Users\Lenovo\Documents\Codex\2026-09-03\4-glp-1r-glp-1r-ai-2\outputs\glp1r_submission_20261003\project
+Analyzed A30Q_seed17_model0
+Analyzed A30Q_seed17_model1
+Analyzed A30Q_seed17_model2
+Analyzed A30Q_seed17_model3
+Analyzed A30Q_seed17_model4
+Analyzed A30Q_seed29_model0
+Analyzed A30Q_seed29_model1
+Analyzed A30Q_seed29_model2
+Analyzed A30Q_seed29_model3
+Analyzed A30Q_seed29_model4
+Analyzed A30Q_seed43_model0
+Analyzed A30Q_seed43_model1
+Analyzed A30Q_seed43_model2
+Analyzed A30Q_seed43_model3
+Analyzed A30Q_seed43_model4
+Analyzed Q23A_A30Q_seed17_model0
+Analyzed Q23A_A30Q_seed17_model1
+Analyzed Q23A_A30Q_seed17_model2
+Analyzed Q23A_A30Q_seed17_model3
+Analyzed Q23A_A30Q_seed17_model4
+Analyzed Q23A_A30Q_seed29_model0
+Analyzed Q23A_A30Q_seed29_model1
+Analyzed Q23A_A30Q_seed29_model2
+Analyzed Q23A_A30Q_seed29_model3
+Analyzed Q23A_A30Q_seed29_model4
+Analyzed Q23A_A30Q_seed43_model0
+Analyzed Q23A_A30Q_seed43_model1
+Analyzed Q23A_A30Q_seed43_model2
+Analyzed Q23A_A30Q_seed43_model3
+Analyzed Q23A_A30Q_seed43_model4
+Analyzed Q23A_seed17_model0
+Analyzed Q23A_seed17_model1
+Analyzed Q23A_seed17_model2
+Analyzed Q23A_seed17_model3
+Analyzed Q23A_seed17_model4
+Analyzed Q23A_seed29_model0
+Analyzed Q23A_seed29_model1
+Analyzed Q23A_seed29_model2
+Analyzed Q23A_seed29_model3
+Analyzed Q23A_seed29_model4
+Analyzed Q23A_seed43_model0
+Analyzed Q23A_seed43_model1
+Analyzed Q23A_seed43_model2
+Analyzed Q23A_seed43_model3
+Analyzed Q23A_seed43_model4
+Analyzed WT_seed17_model0
+Analyzed WT_seed17_model1
+Analyzed WT_seed17_model2
+Analyzed WT_seed17_model3
+Analyzed WT_seed17_model4
+Analyzed WT_seed29_model0
+Analyzed WT_seed29_model1
+Analyzed WT_seed29_model2
+Analyzed WT_seed29_model3
+Analyzed WT_seed29_model4
+Analyzed WT_seed43_model0
+Analyzed WT_seed43_model1
+Analyzed WT_seed43_model2
+Analyzed WT_seed43_model3
+Analyzed WT_seed43_model4
+SUCCESS: C:\Users\Lenovo\Documents\Codex\2026-09-03\4-glp-1r-glp-1r-ai-2\outputs\glp1r_submission_20261003\project\results\notebook_review_c8ok9dn_\results.csv
+
+A30Q 1.227342 92.66055 -2.927116 Original ProteinMPNN sample
+Q23A 1.215591 92.66055 -2.860329 Manually constructed single-mutant control
+Q23A_A30Q 1.20316 92.66055 -2.9039 Manually constructed double-mutant control
+WT 1.299184 92.66055 -2.884166 Mother sequence
+{
+  "passed": true,
+  "models_compared": 60,
+  "seed_groups_compared": 12,
+  "absolute_tolerance": 0.0001,
+  "maximum_deviation_by_metric": {
+    "aligned_CA_count": 0.0,
+    "receptor_fit_RMSD_A": 3.552713678800501e-15,
+    "peptide_RMSD_A": 3.2834307606144364e-06,
+    "peptide_Nterm_RMSD_A": 6.6422549848677015e-06,
+    "reference_contacts_retained": 0.0,
+    "contact_retention_pct": 0.0,
+    "new_contacts": 0.0,
+    "Q23_contacts": 0.0,
+    "A30_contacts": 0.0,
+    "fixed_interface_PAE_R_to_P_A": 0.0,
+    "fixed_interface_PAE_P_to_R_A": 0.0,
+    "fixed_interface_PAE_A": 0.0,
+    "peptide_CA_pLDDT": 0.0,
+    "peptide_Nterm_CA_pLDDT": 0.0
+  },
+  "seed_summary_maximum_deviation": 3.2834307606144364e-06,
+  "ESM_maximum_deviation": 0.0
+}
+
+{"notebook": "01_reproduce_recorded_workflow.ipynb", "python_cells_executed": 4, "validation": "Python-cell execution only; no Jupyter kernel installation", "fresh_neural_inference": "optional cells disabled by default"}
+Requests saved; manually verify and upload to AlphaFold Server. No jobs were submitted.
+Project: C:\Users\Lenovo\Documents\Codex\2026-09-03\4-glp-1r-glp-1r-ai-2\outputs\glp1r_submission_20261003\project
+archive ['design_audit.json', 'recorded_design_samples.csv']
+enumerate ['enumerated_design_space.csv']
+AF3 request JSON files: 13
+Fresh MPNN skipped explicitly; original seed was not recorded.
+{"notebook": "02_design_and_server_workflow.ipynb", "python_cells_executed": 3, "validation": "Python-cell execution only; no Jupyter kernel installation", "fresh_neural_inference": "optional cells disabled by default"}
+Project: C:\Users\Lenovo\Documents\Codex\2026-09-03\4-glp-1r-glp-1r-ai-2\outputs\glp1r_submission_20261003\project
+WT -2.8841657439867654 0.0
+A30Q -2.9271157503128054 -0.04295000632603996
+Q23A -2.8603286504745484 0.023837093512216967
+Q23A_A30Q -2.903900384902954 -0.019734640916188706
+Fresh neural inference explicitly skipped; values above are archived measurements.
+{"notebook": "03_ESM_local_inference.ipynb", "python_cells_executed": 3, "validation": "Python-cell execution only; no Jupyter kernel installation", "fresh_neural_inference": "optional cells disabled by default"}
+
